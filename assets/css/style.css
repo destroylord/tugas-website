@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-left img{
+    position: absolute;
+    width: 565px;
+    height: 451px;
+    left: 168px;
+    top: 202px;
+    border-radius: 20px;
+}
+
+.txt-head {
+    position: absolute;
+    width: 461px;
+    height: 120px;
+    left: 827px;
+    top: 223px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+    /* or 111% */
+
+    display: flex;
+    align-items: center;
+    
+    color: #4F4F4F;
+}
+
+.txt-p {
+    position: absolute;
+    width: 517px;
+    height: 6px;
+    left: 827px;
+    top: 363px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+
+    color: #4F4F4F;
+}
+
+.text-profile img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 827px;
+    top: 512px;
+}
+
+.text-profile h4 {
+   
+    position: absolute;
+    width: 161px;
+    height: 21px;
+    left: 937px;
+    top: 527px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #4F4F4F; 
+}
+
+.text-profile p {
+  /* Web Developer */
+
+
+    position: absolute;
+    width: 99px;
+    height: 20px;
+    left: 937px;
+    top: 547px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #2F2E41;
+
+}
